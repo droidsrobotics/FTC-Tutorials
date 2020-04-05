@@ -1,0 +1,89 @@
+# Site
+name: FTC Tutorials
+title: FTC Tutorials
+description: A one stop shop for everything FIRST Tech Challenge
+meta_description: "A one stop shop for everything FIRST Tech Challenge"
+logo: 'assets/images/FRCTutorials.png'
+favicon: 'assets/images/favicon-96x96.png'
+baseurl:
+email: 'team@ev3lessons.com'
+google_analytics: 'UA-65893558-5'
+disqus: 'demowebsite'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5b19a5338e56ee0011c80480&product=sticky-share-buttons"></script>'
+# Authors
+authors:
+
+  Droids:
+    name: Not the Droids You Are Looking For
+    display_name: Droids
+    email: team@droidsrobotics.org
+    web: http://www.droidsrobotics.org
+    twitter: https://twitter.com/droidsrobotics
+    facebook: https://www.facebook.com/droidsrobotics
+    description: "Founder of EV3Lessons, FLLTutorials, LEGO MCP, FLL World Festival Champion 2018."
+    image: assets/images/people/Droids.jpg
+  SeshanBrothers:
+    name: Seshan Brothers
+    display_name: Seshan Brothers
+    email: team@flltutorials.com
+    web: http://www.flltutorials.com
+    twitter: https://twitter.com/seshanbrothers
+    facebook: https://www.facebook.com/SeshanBrothers/
+    description: "Founder of EV3Lessons, FLLTutorials, LEGO MCP, FLL World Festival Champion 2018."
+    image: assets/images/people/Seshanbros.jpg
+  Sanjay:
+    name: Sanjay Seshan
+    display_name: Sanjay
+    email: team@flltutorials.com
+    web: http://www.flltutorials.com
+    twitter: https://twitter.com/seshanbrothers
+    description: "Founder of EV3Lessons, FLLTutorials, LEGO MCP, FLL World Festival Champion 2018."
+    image: assets/images/people/female.jpg
+  Arvind:
+    name: Arvind Seshan
+    display_name: Arvind
+    email: team@flltutorials.com
+    web: http://www.flltutorials.com
+    twitter: https://twitter.com/seshanbrothers
+    description: "Founder of EV3Lessons, FLLTutorials, LEGO MCP, FLL World Festival Champion 2018."
+    image: assets/images/people/female.jpg
+  Asha:
+    name: Asha Seshan
+    display_name: Asha
+    email: team@flltutorials.com
+    web: http://www.flltutorials.com
+    twitter: https://twitter.com/seshanbrothers
+    description: "Mom of Seshan Brothers."
+    image: assets/images/people/asha.jpg
+  Faith:
+    name: Faith Bongiorno
+    display_name: Faith
+    description: From South Carolina, USA
+    image: assets/images/people/female.jpg
+
+  ManjiriMcCoy:
+      name: Manjiri McCoy
+      display_name: Manjiri McCoy
+      email:
+      web:
+      twitter:
+      facebook:
+      description:
+      image: assets/images/people/female.jpg
+---
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Other
+markdown: kramdown
+highlighter: rouge
