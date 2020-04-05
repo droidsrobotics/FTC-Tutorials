@@ -3,7 +3,7 @@ name: FTC Tutorials
 title: FTC Tutorials
 description: A one stop shop for everything FIRST Tech Challenge
 meta_description: "A one stop shop for everything FIRST Tech Challenge"
-logo: 'assets/images/FRCTutorials.png'
+logo: 'assets/images/FTCTutorials.png'
 favicon: 'assets/images/favicon-96x96.png'
 baseurl:
 email: 'team@ev3lessons.com'
