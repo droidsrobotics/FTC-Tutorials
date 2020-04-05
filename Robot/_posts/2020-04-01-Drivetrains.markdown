@@ -12,5 +12,5 @@ featured: false
 FTC 10464<br>
 
 Slides:
- <a href="/translations/en-us/Robot/DriveTrains.pptx">PPTX</a>,
- <a href="/translations/en-us/Robot/DriveTrains.pdf">PDF</a>
+ <a href="/translations/en-us/Robot/Drivetrains.pptx">PPTX</a>,
+ <a href="/translations/en-us/Robot/Drivetrains.pdf">PDF</a>
