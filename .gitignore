@@ -25,3 +25,5 @@ Backup of *.doc*
   
 # General
 .DS_Store
+.DS_Store
+translations/.DS_Store
