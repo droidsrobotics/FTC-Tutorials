@@ -11,6 +11,8 @@ featured: false
 ---
 FTC 13380<br>
 
-Slides:
- <a href="/translations/en-us/TeamManagement/UsefulTools.pptx">PPTX</a>,
- <a href="/translations/en-us/TeamManagement/UsefulTools.pdf">PDF</a>
+Slides:<br>
+EN: <a href="/translations/en-us/TeamManagement/UsefulTools.pptx">PPTX</a>,
+ <a href="/translations/en-us/TeamManagement/UsefulTools.pdf">PDF</a><br>
+ES: <a href="/translations/es/TeamManagement/UsefulToolsES.pptx">PPTX</a>,
+ <a href="/translations/es/TeamManagement/UsefulToolsES.pdf">PDF</a>

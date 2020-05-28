@@ -11,6 +11,8 @@ featured: false
 ---
 FTC 13380<br>
 
-Slides:
-<a href="/translations/en-us/Robot/LinearMotion.pptx">PPTX</a>,
-<a href="/translations/en-us/Robot/LinearMotion.pdf">PDF</a>
+Slides:<br>
+EN: <a href="/translations/en-us/Robot/LinearMotion.pptx">PPTX</a>,
+<a href="/translations/en-us/Robot/LinearMotion.pdf">PDF</a><br>
+ES:<a href="/translations/es/Robot/LinearMotionES.pptx">PPTX</a>,
+<a href="/translations/es/Robot/LinearMotionES.pdf">PDF</a>

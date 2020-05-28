@@ -4,7 +4,7 @@ searchterms:
 layout: post
 language: "en"
 image: "assets//images/"
-author: 
+author:
 categories: Research
 tag: TeamManagement
 featured: false
@@ -12,6 +12,8 @@ featured: false
 FTC 10464<br>
 
 
-Slides:
- <a href="/translations/en-us/TeamManagement/SeasonPlanning.pptx">PPTX</a>,
- <a href="/translations/en-us/TeamManagement/SeasonPlanning.pdf">PDF</a>
+Slides:<br>
+EN: <a href="/translations/en-us/TeamManagement/SeasonPlanning.pptx">PPTX</a>,
+ <a href="/translations/en-us/TeamManagement/SeasonPlanning.pdf">PDF</a><br>
+ES: <a href="/translations/es/TeamManagement/SeasonPlanningES.pptx">PPTX</a>,
+ <a href="/translations/es/TeamManagement/SeasonPlanningES.pdf">PDF</a>

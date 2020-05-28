@@ -13,6 +13,8 @@ excerpt_separator: <!--more-->
 
 FTC 10464<br>
 
-Slides:
- <a href="/translations/en-us/Competitions/EngineeringNotebook.pptx">PPTX</a>,
- <a href="/translations/en-us/Competitions/EngineeringNotebook.pdf">PDF</a>
+Slides:<br>
+ EN: <a href="/translations/en-us/Competitions/EngineeringNotebook.pptx">PPTX</a>,
+ <a href="/translations/en-us/Competitions/EngineeringNotebook.pdf">PDF</a><br>
+ ES: <a href="/translations/es/Competitions/EngineeringNotebookES.pptx">PPTX</a>,
+ <a href="/translations/es/Competitions/EngineeringNotebookES.pdf">PDF</a>

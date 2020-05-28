@@ -12,6 +12,8 @@ featured: false
 FTC 10464<br>
 
 
-Slides:
- <a href="/translations/en-us/TeamManagement/FIRST101.pptx">PPTX</a>,
- <a href="/translations/en-us/TeamManagement/FIRST101.pdf">PDF</a>
+Slides:<br>
+ EN: <a href="/translations/en-us/TeamManagement/FIRST101.pptx">PPTX</a>,
+ <a href="/translations/en-us/TeamManagement/FIRST101.pdf">PDF(EN)</a>,<br>
+ ES: <a href="/translations/es/TeamManagement/FIRST101ES.pptx">PPTX</a>,
+ <a href="/translations/es/TeamManagement/FIRST101ES.pdf">PDF</a>

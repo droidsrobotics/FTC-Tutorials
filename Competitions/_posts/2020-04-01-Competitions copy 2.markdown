@@ -13,6 +13,8 @@ excerpt_separator: <!--more-->
 
 FTC 10464<br>
 
-Slides:
- <a href="/translations/en-us/Competitions/Competitions.pptx">PPTX</a>,
- <a href="/translations/en-us/Competitions/Competitions.pdf">PDF</a>
+Slides:<br>
+ EN: <a href="/translations/en-us/Competitions/Competitions.pptx">PPTX</a>,
+ <a href="/translations/en-us/Competitions/Competitions.pdf">PDF</a><br>
+ES: <a href="/translations/es/Competitions/CompetitionsES.pptx">PPTX</a>,
+<a href="/translations/es/Competitions/CompetitionsES.pdf">PDF</a>
