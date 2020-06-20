@@ -1,5 +1,5 @@
 ---
-title: "Motors and Servos"
+title: "Transferring Motion"
 searchterms:
 layout: post
 language: "en"
