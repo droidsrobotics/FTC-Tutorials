@@ -1,0 +1,18 @@
+---
+layout: post
+title: "FTC Awards"
+searchterms:
+image: "assets/images/"
+language: "en"
+author:
+categories:  []
+tag: Competitions
+featured: true
+excerpt_separator: <!--more-->
+---
+
+Patti Poston<br>
+
+Slides:<br>
+ EN: <a href="/translations/en-us/Competitions/Awards.pptx">PPTX</a>,
+ <a href="/translations/en-us/Competitions/Awards.pdf">PDF</a><br>

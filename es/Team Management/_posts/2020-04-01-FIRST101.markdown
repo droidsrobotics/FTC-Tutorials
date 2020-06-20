@@ -1,0 +1,19 @@
+---
+title: "FIRST 101"
+searchterms:
+layout: post
+language: "es"
+image: "assets//images/"
+author:
+categories: Research
+tag: TeamManagement
+featured: false
+---
+FTC 10464<br>
+
+
+Diapositivas:<br>
+ EN: <a href="/translations/en-us/TeamManagement/FIRST101.pptx">PPTX</a>,
+ <a href="/translations/en-us/TeamManagement/FIRST101.pdf">PDF(EN)</a>,<br>
+ ES: <a href="/translations/es/TeamManagement/FIRST101ES.pptx">PPTX</a>,
+ <a href="/translations/es/TeamManagement/FIRST101ES.pdf">PDF</a>

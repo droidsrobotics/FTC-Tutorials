@@ -1,73 +1,77 @@
 ---
-layout: default
-title: Home
+layout: none
 ---
 
-</div>
-</div>
-<!-- We've temporary closed main-content and container to have a full width intro -->    
+
+<script>
+  //langs=['en:United States:English','es:Spain:Español','nl:Netherlands:Nederlands','ar:Saudi Arabia:العَرَبِيةُ‎‎','pt:Brazil:Portugues','el:Greece:Ελληνικά','fr:France:français','ct:../ct:català','he:Israel:עברית','it:Italy:Italiano']
+
+  langs=['{{ site.all_langs | join: "', '" }}']
 
 
-<!-- Home Jumbotron
-================================================== -->    
-<section class="intro">
-    <div class="wrapintro">
-        <h1>FTC Tutorials<br>teach - share - learn</h1>
-        <h2 class="lead">This website is powered by FRC 8027 in collaboration with FTC 13380 and FTC 10464.
-        <br> <br>
-        Together, we hope to create a community for FTC teams to share their best practices for getting the most out of your FIRST Tech Challenge journey. Our goal is to teach, share, and learn together.</h2>    
+function get_browser_version(){
+  var N=navigator.appName, ua=navigator.userAgent, tem;
+  var M=ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);
+  if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) M[2]= tem[1];
+  M=M? [M[1], M[2]]: [N, navigator.appVersion, '-?'];
+  return M[1];
+}
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+var browser = navigator.appName;
+var version = get_browser_version();
+
+if (browser=="Microsoft Internet Explorer") {
+    if (version<="8.0")
+        document.location.href="http://classic.ev3lessons.com/"
+}
 
 
-    </div>
-</section>   
 
-<!-- We reopen main-content and container -->
+if (getParameterByName('lang') != null) {
+    var language = getParameterByName('lang');
+} else if (localStorage.lang) {
+    var language = localStorage.lang.split('ev3cookie');
+} else if (window.location.hash) {
+    var language = window.location.hash.substring(1);
+} else {
+    var language = navigator.language.split('-')[0];
+}
 
-<div class="container-fluid">
+localStorage.lang = language;
 
-    <div class="main-content">
 
-    <section id="services">
-        <div class="container-fluid">
+if (language == "en-us") {
+    language = "en";
+} else if (language == "pt-br") {
+    language = "pt";
+} else if (language == "br") {
+    language = "pt";
+}
 
-            <div class="row">
-            <div class="col-sm-4">
-                {% include sidebar.html %}
-            </div>
-            <div class="col-sm-8">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">FIRST Tech Challenge</h2>
-                    <h3 class="section-subheading text-muted">Resources for your team</h3>
-                </div>
-            </div>
-                        <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-cog fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading"> <a href="{{ site.baseurl }}/Robot.html">Robot</a></h4>
-                    <p class="text-muted">This section has resources designed for the Robot Game portion of the competition.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading"> <a href="{{ site.baseurl }}/Competitions.html">Competitions</a></h4>
-                    <p class="text-muted">This section is preparing for and participating in competitions </p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading"> <a href="{{ site.baseurl }}/TeamManagement.html">Team Management</a></h4>
-                    <p class="text-muted">This section has resources for team management including setting up a team, registration, fundraising and day-to-day management.</p>
-                </div>
-            </div>
-            </div>
-            </div>
-        </div>
-    </section>
+
+
+if ((String(langs).indexOf(language+":")) == -1) {
+    language = "en";
+}
+
+
+if (getParameterByName('target')) {
+    var page = window.location.href.split("?")[0].split("#")[0].split("index.html")[0] + ''+language + '/' + getParameterByName('target');
+} else {
+    var page = window.location.href.split("?")[0].split("#")[0].split("index.html")[0] + ''+language;
+}
+
+window.location.href = page;
+
+
+</script>

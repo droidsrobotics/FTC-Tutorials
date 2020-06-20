@@ -10,6 +10,29 @@ email: 'team@ev3lessons.com'
 google_analytics: 'UA-65893558-6'
 disqus: 'demowebsite'
 sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5b19a5338e56ee0011c80480&product=sticky-share-buttons"></script>'
+defaults:
+  #languages
+  -
+    scope:
+      path: ""
+    values:
+      language: "en"
+      layout: default
+  -
+    scope:
+      path: "es"
+    values:
+      lang: "es"
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+
+# {% assign all_langs = "en:United States:English,es:Spain:Español,nl:Netherlands:Nederlands,ar:Saudi Arabia:العَرَبِيةُ‎‎,pt:Brazil:Portugues,el:Greece:Ελληνικά,fr:France:français,ct:Catalonia:català,he:Israel:עברית,it:Italy:Italiano" | split: "," %}
+
+all_langs: ['en:United States:English','es:Spain:Español']
+
 # Authors
 authors:
 
