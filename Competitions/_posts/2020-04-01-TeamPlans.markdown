@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FTC Awards"
+title: "Team Plans"
 searchterms:
 image: "assets/images/"
 lang: "en"

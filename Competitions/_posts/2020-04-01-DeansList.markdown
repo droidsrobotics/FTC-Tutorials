@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FTC Awards"
+title: "Dean's List"
 searchterms:
 image: "assets/images/"
 lang: "en"
