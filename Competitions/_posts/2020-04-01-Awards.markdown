@@ -11,10 +11,8 @@ featured: true
 excerpt_separator: <!--more-->
 ---
 
-FTC 10464<br>
+Patti Postonbr>
 
 Slides:<br>
  EN: <a href="/translations/en-us/Competitions/Awards.pptx">PPTX</a>,
  <a href="/translations/en-us/Competitions/Awards.pdf">PDF</a><br>
-ES: <a href="/translations/es/Competitions/AwardsES.pptx">PPTX</a>,
-<a href="/translations/es/Competitions/AwardsES.pdf">PDF</a>
