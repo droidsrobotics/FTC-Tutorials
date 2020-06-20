@@ -42,7 +42,7 @@ comments: true
         <section class="all-posts">
 
             <div class="section-title text-center">
-                <h1>Robot Tutorials</h1>
+                <h1>Tutoriales de Robot</h1>
             </div>
 <br><br><br>
             <div class="row listfeaturedtag">

@@ -16,7 +16,7 @@ comments: true
         <section class="all-posts">
 
         <div class="section-title text-center">
-            <h1>Team Management</h1>
+            <h1>Administración de Equipo</h1>
         </div>
 <br><br><br>
             <div class="row listfeaturedtag">

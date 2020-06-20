@@ -16,7 +16,7 @@ comments: true
         <section class="all-posts">
 
         <div class="section-title text-center">
-            <h1>Skystone Worksheets</h1>
+            <h1>Hojas de Trabajo para Skystone</h1>
         </div>
 <br><br><br>
             <div class="row listfeaturedtag">
