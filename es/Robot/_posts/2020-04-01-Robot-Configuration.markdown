@@ -1,5 +1,5 @@
 ---
-title: "Initial Robot Configuration"
+title: "Configuracion Inicial del Robot"
 searchterms:
 layout: post
 language: "es"

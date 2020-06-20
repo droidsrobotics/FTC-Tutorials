@@ -1,5 +1,5 @@
 ---
-title: "Mechanisms"
+title: "Mecanismos"
 searchterms:
 layout: post
 language: "es"

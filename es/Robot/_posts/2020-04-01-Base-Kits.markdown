@@ -1,5 +1,5 @@
 ---
-title: "Vendors and Base Kits"
+title: " Distribuidores de FTC y Kits Base"
 searchterms:
 layout: post
 language: "es"

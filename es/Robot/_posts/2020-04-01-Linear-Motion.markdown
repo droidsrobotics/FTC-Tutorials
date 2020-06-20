@@ -1,5 +1,5 @@
 ---
-title: "Linear Motion"
+title: "Mecanismos de movimiento lineal"
 searchterms:
 layout: post
 language: "es"
