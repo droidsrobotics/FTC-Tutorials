@@ -1,0 +1,84 @@
+---
+layout: en/default
+---
+
+
+<script>
+
+  langs=['{{ site.all_langs | join: "', '" }}']
+
+
+function get_browser_version(){
+  var N=navigator.appName, ua=navigator.userAgent, tem;
+  var M=ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);
+  if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) M[2]= tem[1];
+  M=M? [M[1], M[2]]: [N, navigator.appVersion, '-?'];
+  return M[1];
+}
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+var browser = navigator.appName;
+var version = get_browser_version();
+
+if (browser=="Microsoft Internet Explorer") {
+    if (version<="8.0")
+        document.location.href="http://classic.ev3lessons.com/"
+}
+
+
+
+if (getParameterByName('lang') != null) {
+    var language = getParameterByName('lang');
+} else if (localStorage.lang) {
+    var language = localStorage.lang.split('ev3cookie');
+} else if (window.location.hash) {
+    var language = window.location.hash.substring(1);
+} else {
+    var language = navigator.language.split('-')[0];
+}
+
+localStorage.lang = language;
+
+
+if (language == "en-us") {
+    language = "en";
+} else if (language == "pt-br") {
+    language = "pt";
+} else if (language == "br") {
+    language = "pt";
+}
+
+
+
+if ((String(langs).indexOf(language+":")) == -1) {
+    language = "en";
+}
+
+
+
+  page = window.location.href.split('/')[3].split('?')[0].split('#')[0];
+  if (page == "Robot.html") {
+    window.location.href = "/"+language+"/Robot.html"
+  } else if (page == "Competitions.html") {
+    window.location.href = "/"+language+"/Competitions.html"
+  } else if (page == "TeamManagement.html") {
+    window.location.href = "/"+language+"/TeamManagement.html"
+  } 
+
+</script>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
