@@ -70,7 +70,10 @@ if (getParameterByName('target')) {
 } else {
     var page = window.location.href.split("?")[0].split("#")[0].split("index.html")[0] + ''+language;
 }
-
+if(page.includes(",")) {
+  page = page.split(",")[0]+page.split(",")[1]
+}
+window.location.href = page;
 window.location.href = page;
 
 
