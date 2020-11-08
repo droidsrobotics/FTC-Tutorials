@@ -4,7 +4,6 @@ title: Home
 ---
 
 </div>
-</div>
 <!-- We've temporary closed main-content and container to have a full width intro -->    
 
 

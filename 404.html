@@ -1,10 +1,9 @@
 ---
-layout: none
+layout: en/default
 ---
 
 
 <script>
-  //langs=['en:United States:English','es:Spain:Español','nl:Netherlands:Nederlands','ar:Saudi Arabia:العَرَبِيةُ‎‎','pt:Brazil:Portugues','el:Greece:Ελληνικά','fr:France:français','ct:../ct:català','he:Israel:עברית','it:Italy:Italiano']
 
   langs=['{{ site.all_langs | join: "', '" }}']
 
@@ -65,16 +64,21 @@ if ((String(langs).indexOf(language+":")) == -1) {
 }
 
 
-if (getParameterByName('target')) {
-    var page = window.location.href.split("?")[0].split("#")[0].split("index.html")[0] + ''+language + '/' + getParameterByName('target');
-} else {
-    var page = window.location.href.split("?")[0].split("#")[0].split("index.html")[0] + ''+language;
-}
-if(page.includes(",")) {
-  page = page.split(",")[0]+page.split(",")[1]
-}
-window.location.href = page;
-window.location.href = page;
 
+  page = window.location.href.split('/')[3].split('?')[0].split('#')[0];
+  if (page == "Robot.html") {
+    window.location.href = "/"+language+"/Robot.html"
+  } else if (page == "Competitions.html") {
+    window.location.href = "/"+language+"/Competitions.html"
+  } else if (page == "TeamManagement.html") {
+    window.location.href = "/"+language+"/TeamManagement.html"
+  } 
 
 </script>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
