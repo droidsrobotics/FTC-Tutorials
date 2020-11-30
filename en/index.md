@@ -12,7 +12,7 @@ title: Home
 <section class="intro">
     <div class="wrapintro">
         <h1>FTC Tutorials<br>teach - share - learn</h1>
-        <h2 class="lead">This website is powered by FRC 8027 in collaboration with FTC 13380 and FTC 10464.
+        <h2 class="lead">This website is powered by FRC 8027 in collaboration with FTC 13380.
         <br> <br>
         Together, we hope to create a community for FTC teams to share their best practices for getting the most out of your FIRST Tech Challenge journey. Our goal is to teach, share, and learn together.</h2>    
 
